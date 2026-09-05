@@ -213,7 +213,7 @@ export default function App() {
       <header className="fixed top-0 left-0 right-0 h-20 bg-[#0B0C10]/75 backdrop-blur-lg border-b border-[#1F2833]/45 z-40 flex items-center justify-between px-6 sm:px-12 transition-all">
         <a href="#" className="flex items-center gap-2 group">
           <div className="relative w-8 h-8 rounded bg-[#0B1123] border border-[#0B1123]/50 flex items-center justify-center shrink-0">
-            <img src="CODE.png" alt="" />
+            <img src="NEWLOGO.png" alt="" />
             <span className="absolute inset-0 rounded bg-[#0B1123]/20 blur-sm pointer-events-none" />
           </div>
           <span className="font-mono text-white text-md font-bold tracking-widest uppercase ml-1">
