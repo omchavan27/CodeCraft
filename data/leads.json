@@ -1,0 +1,28 @@
+[
+  {
+    "id": "lead_mtocq4dtisaq1",
+    "name": "business",
+    "email": "omrajendrachavan@gmail.com",
+    "projectScope": "AI Conversational Bots",
+    "budget": "$5k - $15k",
+    "customMessage": "",
+    "status": "CLOSED",
+    "privateNotes": "",
+    "source": "FORM",
+    "createdAt": "2026-09-05T12:21:00.209Z",
+    "emailsSent": [
+      {
+        "type": "CLIENT_ONBOARDING",
+        "sentAt": "2026-09-05T12:21:00.211Z",
+        "success": true,
+        "to": "omrajendrachavan@gmail.com"
+      },
+      {
+        "type": "ADMIN_ALERT",
+        "sentAt": "2026-09-05T12:21:00.211Z",
+        "success": true,
+        "to": "admin@example.com"
+      }
+    ]
+  }
+]
