@@ -557,72 +557,9 @@ export default function App() {
       </section>
 
 
-        {/* 5.Project Designs section */}
-      <section id="work" className="py-24 px-6 sm:px-12 bg-[#0B0C10] relative z-10">
-        <div className="max-w-7xl mx-auto space-y-16">
+       
           
-          {/* Section titles */}
-          <div className="text-center space-y-3 max-w-xl mx-auto">
-            <span className="font-mono text-xs text-[#66FCF1] uppercase tracking-widest block">OUR WORK</span>
-            <h2 className="text-3xl sm:text-4xl font-sans font-black tracking-tight text-white uppercase">
-              WEBSITES WE'VE DESIGNED 
-            </h2>
-            <div className="h-0.5 w-12 bg-[#66FCF1] mx-auto mt-2" />
-          </div>
-
-          {/* Cards grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            {/* Card 1: Design */}
-            <motion.div
-              whileHover={{ y: -8 }}
-              className="bg-[#1F2833]/30 border border-[#1F2833] rounded-2xl p-6 h-[320px] space-y-6 flex flex-col justify-between group hover:border-[#66FCF1]/30 transition-duration-300 relative overflow-hidden"
-            >
-              <div>
-              <img src="aura-asthetics.png" alt="Aura Asthetics Website design" className="w-full h-56 object-cover rounded-xl mb-6"/>
-              <h3 className="text-xl font-bold text-white uppercase font-sans tracking-wide text-center">
-                BEAUTY AND SPA WEBSITE
-              </h3>
-              
-
-              </div>
-             
-            </motion.div>
-
-            {/* Card 2: Design */}
-            <motion.div
-              whileHover={{ y: -8 }}
-              className="bg-[#1F2833]/30 border border-[#1F2833] rounded-2xl p-6 h-[320px] space-y-6 flex flex-col justify-between group hover:border-[#66FCF1]/30 transition-duration-300 relative overflow-hidden"
-            >
-              <div>
-              <img src="Vangaurd.png" alt="Construction Website Design" className="w-full h-56 object-cover rounded-xl mb-6"/>
-              <h3 className="text-xl font-bold text-white uppercase font-sans tracking-wide text-center">
-                CONSTRUCTION WEBSITE
-              </h3>
-              
-
-              </div>
-             
-            </motion.div>
-
-             {/* Card 3: Design */}
-            <motion.div
-              whileHover={{ y: -8 }}
-              className="bg-[#1F2833]/30 border border-[#1F2833] rounded-2xl p-6 h-[320px] space-y-6 flex flex-col justify-between group hover:border-[#66FCF1]/30 transition-duration-300 relative overflow-hidden"
-            >
-              <div>
-              <img src="aura-collection.png" alt="Aura Collection Website design" className="w-full h-56 object-cover rounded-xl mb-6"/>
-              <h3 className="text-xl font-bold text-white uppercase font-sans tracking-wide text-center">
-                E-COMMERCE WEBSITE
-              </h3>
-              
-
-              </div>
-             
-            </motion.div>
-          </div>
-        </div>
-      </section>  
+         
 
 
       {/* 5. CONTACT FORM (Beautiful input expansions with validates) */}
@@ -840,15 +777,13 @@ export default function App() {
           <div className="space-y-3">
             <h5 className="text-white text-[10px] font-bold uppercase tracking-widest">CONNECT WITH US</h5>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/CODECRAFT ?igsh=MW1raG44dXZoNDZlOA==" className="p-2 border border-[#1F2833] hover:border-[#66FCF1] text-gray-400 hover:text-white rounded-lg transition-colors shadow" id="instagram-footer-link">
+              <a href="https://www.instagram.com/codecrafttech04?stkn=azlhcTRmYzN6ZHI=/CODECRAFT ?igsh=MW1raG44dXZoNDZlOA==" className="p-2 border border-[#1F2833] hover:border-[#66FCF1] text-gray-400 hover:text-white rounded-lg transition-colors shadow" id="instagram-footer-link">
                 <Instagram size={15} />
               </a>
               <a href="#" className="p-2 border border-[#1F2833] hover:border-[#66FCF1] text-gray-400 hover:text-white rounded-lg transition-colors shadow">
                 <Twitter size={15} />
               </a>
-              <a href="#" className="p-2 border border-[#1F2833] hover:border-[#66FCF1] text-gray-400 hover:text-white rounded-lg transition-colors shadow">
-                <Linkedin size={15} />
-              </a>
+              
             </div>
             <p className="text-[10px] text-gray-600 mt-2 uppercase tracking-wide">
               ESHTABLISHED 2026:<span className="text-[#66FCF1]">AMRAVATI</span>
